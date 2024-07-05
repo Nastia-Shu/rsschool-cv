@@ -38,7 +38,7 @@ body {
     line-height: 1;
     font-size: 14px;
     font-weight: 500;
-    color: rgb(121, 13, 89);
+    color: rgb(60, 27, 5);
     font-family: Montserrat;
 }
 
@@ -93,16 +93,92 @@ body {
 /*-------- main ------------------*/
 .page {
     flex: 1 1 auto;
+    background-color: rgb(235, 245, 238);
+}
+
+.page-main-block {
+    
+}
+.main-block {
+    position: relative;
+    top: 130px;
+}
+
+.main-block-container {
+}
+
+.main-block-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: rgb(182, 167, 162, 0.3);
+}
+.main-avatar-image {
+}
+.main-avatar-name {
+}
+.main-title {
+    font-size: 58px;
+    line-height: calc(150 / 58 * 100%);
+    font-weight: 800;
+}
+
+.main-basic{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.main-contact {
+    
+    
+}
+.main-titlle-2 {
+    font-size: 26px;
+    line-height: calc(150 / 58 * 100%);
+    font-weight: 600;
+}
+.main-contact-list {
+    
+}
+.main-contact-item {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 10px;
+}
+
+.main-contact-icon {
+    padding-right: 5px;
+}
+
+.main-contact-text {
+}
+
+.main-skills {
+    padding: 0 150px 0 0;
+    
+}
+.main-skills-list {
+    
+}
+
+.main-skills-item {
+    list-style-type: square;
+    padding-bottom: 15px;
 }
 /*-------- main-end --------------*/
 
 /*-------- footer ----------------*/
 .footer {
+    background-color: rgb(86, 119, 96);
 
 }
 /*-------- footer-end ------------*/
 
-.page-avatar-image {
-    width: 10%;
-}
+
 

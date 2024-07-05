@@ -45,6 +45,8 @@ body {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 ._container {
@@ -54,6 +56,8 @@ body {
     box-sizing: border-box;
 }
 /*------------------------------*/
+
+/*---------- header ------------*/
 
 .header {
     position: absolute;
@@ -71,10 +75,6 @@ body {
     background-color: rgb(138, 198, 155);
 }
 
-.menu {
-
-}
-
 .menu-list {
     flex-wrap: wrap;
     display: flex;
@@ -88,9 +88,21 @@ body {
     color: rgb(255, 255, 255);
     line-height: 170%;
 }
+/*-------- header-end ------------*/
 
+/*-------- main ------------------*/
+.page {
+    flex: 1 1 auto;
+}
+/*-------- main-end --------------*/
 
-.image-avatar {
+/*-------- footer ----------------*/
+.footer {
+
+}
+/*-------- footer-end ------------*/
+
+.page-avatar-image {
     width: 10%;
 }
 

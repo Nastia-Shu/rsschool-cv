@@ -17,25 +17,25 @@
                 <nav class="menu">
                     <ul class="menu-list">
                         <li class="menu-item">
-                            <a href="" class="menu-link">Skills</a>
+                            <a href="#Skills" class="menu-link">Skills</a>
                         </li>
                         <li class="menu-item">
-                            <a href="" class="menu-link">Contact information</a>
+                            <a href="#Contact" class="menu-link">Contact information</a>
                         </li>
                         <li class="menu-item">
-                            <a href="" class="menu-link">About me</a>
+                            <a href="#About" class="menu-link">About me</a>
                         </li>
                         <li class="menu-item">
-                            <a href="" class="menu-link">Code example</a>
+                            <a href="#Code" class="menu-link">Code example</a>
                         </li>
                         <li class="menu-item">
-                            <a href="" class="menu-link">Experience</a>
+                            <a href="#Experience" class="menu-link">Experience</a>
                         </li>
                         <li class="menu-item">
-                            <a href="" class="menu-link">Education</a>
+                            <a href="#Education" class="menu-link">Education</a>
                         </li>
                         <li class="menu-item">
-                            <a href="" class="menu-link">Languages</a>
+                            <a href="#Languages" class="menu-link">Languages</a>
                         </li>
                     </ul>
                 </nav>
@@ -50,7 +50,7 @@
                             <h1 class="main-title">Nastassia Shu</h1>
                         </div>
                         <div class="main-basic">
-                            <div class="main-skills">
+                            <div id="Skills" class="main-skills">
                                 <h2 class="main-titlle-2">Skills</h2>
                                 <ul class="main-skills-list">
                                     <li class="main-skills-item">
@@ -73,7 +73,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="main-contact">
+                            <div id="Contact" class="main-contact">
                                 <h2 class="main-titlle-2">Contact information</h2>
                                 <ul class="main-contact-list">
                                     <li class="main-contact-item">
@@ -91,31 +91,31 @@
                                             width="20px">
                                         <p class="main-contact-text">Discord: Asiashu</p>
                                     </li>
-                                    <li class="main-contact-item">
-                                        <img class="main-contact-icon" src="icon/github.png" alt="github icon"
-                                            width="20px">
-                                        <p class="main-contact-text">GitHub: Nastia-Shu</p>
-                                    </li>
+
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="main-about">
+                    <div id="About" class="main-about">
                         <h2 class="main-titlle-2">
-                            About me:
+                            About me
                         </h2>
                         <p class="main-text">
-                            I may not be as experienced, but I am someone you would want to get to know and work with. Personal qualities: purposefulness, ambition, sociability, stress resistance. Interested in development. High self-motivation.
+                            I may not be as experienced, but I am someone you would want to get to know and work with.
+                            Personal qualities: purposefulness, ambition, sociability, stress resistance. Interested in
+                            development. High self-motivation.
                         </p>
                     </div>
-                    <div class="main-code">
+                    <div id="Code" class="main-code">
                         <h2 class="main-titlle-2">
-                            Code example:
+                            Code example
                         </h2>
                         <p class="main-text">
-                            <strong>Kata Trainer from CODEWARS: </strong>Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0. Your function only needs to return the result.
+                            <strong>Kata Trainer from CODEWARS: </strong>Write a program that finds the summation of
+                            every number from 1 to num. The number will always be a positive integer greater than 0.
+                            Your function only needs to return the result.
                         </p>
-                        <pre>
+                        <pre class="main-code-code">
                             <code>
                                 var summation = function (num) {
                                     let sum = 0;
@@ -127,25 +127,27 @@
                             </code>
                         </pre>
                     </div>
-                    <div class="main-about">
+                    <div id="Experience" class="main-experience">
                         <h2 class="main-titlle-2">
-                            Experience:
+                            Experience
                         </h2>
-                        <p class="main-text">
-                           вставить ссылку на проект
-                        </p>
+                        <a href="#.html">
+                            <p class="main-text">
+                                Link on this CV
+                            </p>
+                        </a>
                     </div>
-                    <div class="main-about">
+                    <div id="Education" class="main-education">
                         <h2 class="main-titlle-2">
-                            Education:
+                            Education
                         </h2>
                         <p class="main-text">
                             University: Belarusian State Technological University
                         </p>
                     </div>
-                    <div class="main-about">
+                    <div id="Languages" class="main-languages">
                         <h2 class="main-titlle-2">
-                            Languages:
+                            Languages
                         </h2>
                         <ul class="main-languages-list">
                             <li class="main-languages-item">
@@ -155,22 +157,29 @@
                                 Russian
                             </li>
                             <li class="main-languages-item">
-                                English (А2)
+                                English (A2)
                             </li>
                         </ul>
                     </div>
-                    
                 </div>
             </div>
         </main>
         <footer class="footer">
-            я подвал
+            <div class="footer-container _container">
+                <div class="footer-body">
+                    <a class="footer-mygithub-link" href="https://github.com/Nastia-Shu">
+                        <img class="footer-guthub-icon" src="icon/github.png" alt="github icon" width="40px"
+                            height="40px">
+                        <p class="footer-text-github">Visit my Github</p>
+                    </a>
+                    <p class="footer-text">2024</p>
+                    <a class="footer-rssschool-link" href="https://rs.school/courses/javascript-preschool-ru">
+                        <img src="icon/rss.png" alt="logo rss" width="70px">
+                    </a>
+                </div>
+            </div>
         </footer>
     </div>
-
-
-
-
 </body>
 
 </html>

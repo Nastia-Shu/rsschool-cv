@@ -1,0 +1,217 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(60, 27, 5);
+    font-family: Montserrat;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+._container {
+    max-width: 1440px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    background-color: rgb(248, 255, 251);
+}
+/*------------------------------*/
+
+/*---------- header ------------*/
+
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+
+.header-container {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(138, 198, 155);
+}
+
+.menu-list {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.menu-item {
+    margin: 0px 0px 0px 50px;
+}
+
+.menu-link {
+    color: rgb(255, 255, 255);
+    line-height: 170%;
+}
+/*-------- header-end ------------*/
+
+/*-------- main ------------------*/
+.main-block {
+    position: relative;
+    top: 130px;
+}
+
+.main-block-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: rgb(182, 167, 162, 0.3);
+}
+
+.main-title {
+    font-size: 58px;
+    line-height: calc(150 / 58 * 100%);
+    font-weight: 800;
+}
+
+.main-basic{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.main-titlle-2 {
+    padding-top: 30px;
+    border-bottom: 5px solid rgb(138, 198, 155);
+    font-size: 26px;
+    line-height: calc(50 / 26 * 100%);
+    font-weight: 600;
+}
+.main-contact-list {
+    padding-top: 20px;
+}
+
+.main-contact-item {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 10px;
+}
+
+.main-contact-icon {
+    padding-right: 5px;
+}
+
+.main-skills {
+    padding: 0 150px 0 0;
+    
+}
+
+.main-skills-list {
+    padding-top: 20px;
+}
+
+.main-skills-item {
+    list-style: circle;
+    padding-bottom: 15px;
+}
+
+.main-languages {
+    padding-bottom: 200px;
+}
+
+.main-languages-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 150%;
+}
+
+.main-code-code {
+    background-color: rgba(216, 206, 202, 0.3);
+    border: 2px solid rgba(216, 206, 202);
+}
+/*-------- main-end --------------*/
+
+/*-------- footer ----------------*/
+.footer {
+    position: relative;
+    top: 130px;   
+}
+
+.footer-container {
+    background-color: rgb(182, 188, 183);
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-mygithub-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text-github {
+    padding-left: 10px;
+    color: white;
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-rssschool-link {
+    padding: 10px;
+}
+/*-------- footer-end ------------*/
+
+
+

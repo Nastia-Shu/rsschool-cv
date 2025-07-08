@@ -41,3 +41,20 @@ var summation = function (num) {
   return sum
 }
 ```
+
+
+## Experience
+
+
+## Education
+
+
+* **University:** Belarusian State Technological University
+
+
+## Languages
+
+
+* Belarusian
+* Russian
+* English

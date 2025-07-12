@@ -184,3 +184,46 @@ body {
     border: 2px solid rgba(216, 206, 202);
 }
 /*-------- main-end --------------*/
+
+/*-------- footer ----------------*/
+.footer {
+    position: relative;
+    padding-top: 100px; 
+}
+
+.footer-container {
+    background-color: rgb(182, 188, 183);
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-mygithub-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-mygithub-link:hover {
+  background-color: rgb(221, 223, 221); 
+}
+
+.footer-text-github {
+    padding-left: 10px;
+    color: white;
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-rssschool-link {
+    padding: 10px;
+}
+
+.footer-rssschool-link:hover {
+  background-color: rgb(221, 223, 221); 
+}
+/*-------- footer-end ------------*/

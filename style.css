@@ -1,4 +1,96 @@
-p {
-    font-size: 24px;
-    color: aqua;
+/* Обнуление */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(60, 27, 5);
+    font-family: Montserrat;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+._container {
+    max-width: 1440px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    background-color: rgb(248, 255, 251);
+}
+/*------------------------------*/
+
+/*---------- header ------------*/
+
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+
+.header-container {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(138, 198, 155);
+}
+
+.menu-list {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.menu-item {
+    margin: 0px 0px 0px 50px;
+}
+
+.menu-item:hover {
+  background-color: #df8e8e; 
+}
+
+.menu-link {
+    color: rgb(255, 255, 255);
+    line-height: 170%;
+}
+/*-------- header-end ------------*/
